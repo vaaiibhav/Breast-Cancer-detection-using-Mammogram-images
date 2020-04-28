@@ -1,0 +1,12 @@
+image = imread('mdb010.bmp');
+subplot(2, 2, 1);
+imshow(image);
+subplot(2, 2, 2);
+imadjust(image);
+imshow(image);
+subplot(2, 2, 3);
+histeq(image);
+imshow(image);
+subplot(2, 2, 4);
+adapthisteq(image);
+imshow(image);
